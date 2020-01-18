@@ -1,0 +1,234 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #222222;
+	color: #ffffff;
+}
+
+a {
+	color: #cccccc;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #eeeeee;
+	text-decoration: underline;
+}
+
+p {
+	color: #cccccc;
+}
+
+div.heading{
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	width: 60%;
+	padding: 0 20%;
+}
+
+h1.title{
+	font-size: 2.4em;
+}
+a.title {
+	background-color: #222222;
+	color: #ffffff;
+}
+
+a.title:hover {
+	background-color: #222222;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+p.subtitle {
+	color: #488ae0;
+}
+
+div.clip {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden
+}
+
+div.uiWrap {
+	float: left;
+	position: relative;
+	left: 50%;
+	width: 80%;
+	max-width: 800px;
+	margin-bottom: 20px;
+	margin-left: -8px;
+	color: #000000;
+}
+
+div.ui {
+	border: 1px solid;
+	border-color: #555555;
+	border-radius: 10px;
+	float: left;
+	position: relative;
+	left: -50%;
+	padding: 10px;
+	background-color: #555555;
+	width: 100%;
+	max-width: 800px;
+}
+
+div.inputFile {
+	float: left;
+	width: 80%;
+	height: 100%;
+}
+
+div.convertButton {
+	float: right;
+	padding-right: 0px
+}
+
+button.convert {
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid;
+	border-color: #555555;
+	background-color: #6c9fe6;
+	color: #000000;
+}
+
+button.convert:disabled {
+	background-color: #cccccc;
+	color: #555555;
+}
+
+button.convert:hover:not([disabled]) {
+	background-color: #4f8cf7;
+	color: #000000;
+}
+
+input[type=file]{
+	width: 75%;
+	min-width: 5px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	transform: translate(0%, -50%);
+	background-color: #222222;
+	color: #cccccc;
+}
+
+p.output {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 10px;
+	color: #cccccc;
+}
+
+a.output {
+	background-color: #222222;
+}
+
+ul.output {
+	margin: 0 0 5px;
+	padding: 10px 10px 10px 10px;
+	border: 10px solid;
+	border-color: #222222;
+	border-radius: 5px;
+	background-color: #222222;
+	color: #cccccc;
+	max-height: 400px;
+	overflow: auto;
+}
+
+button.output {
+	float: right;
+	border: 2px solid;
+	border-color: #222222;
+	border-radius: 5px;
+	background-color: #cccccc;
+	height: 21px;
+	width: 26px;
+	font-weight: bold;
+	padding-left: 6px;
+	color: #222222;
+}
+
+button.output.delete:hover {
+	background-color: #eb6657;
+}
+
+a.output.download {
+	float: right;
+	border: 2px solid;
+	border-color: #222222;
+	border-radius: 5px;
+	background-color: #cccccc;
+	padding: 1px 6px 1px 6px;
+	margin-right: 2px;
+	color: #222222;
+	height: 15px;
+	width: 10px;
+}
+
+a.output.download:hover {
+	background-color: #6c9fe6;
+	text-decoration: none;
+}
+
+div.output.clip {
+	height: 13px;
+	width: 10px;
+	margin: 1px 0;
+	overflow: hidden;
+}
+div.output.download {
+	font-size: 1.4em;
+	margin-top: -10px;
+}
+
+li.output {
+	padding: 0 0 10px 0;
+}
+
+div.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 98%;
+	text-align: center;
+	margin: 0 1%;
+	padding-bottom: 5px;
+	background-color: #222222;
+}
+
+img.copyright{
+	float: left;
+	margin-right: 4px;
+	opacity: 0.5;
+}
+
+img.copyright:hover{
+	opacity: 1;
+}
+
+div.copyright {
+	float: left;
+	max-width: 50%;
+}
+
+div.author {
+	float: right;
+}
+
+p.footNote {
+	margin: 0;
+	padding: 8px 0 0 0;
+	font-size: 0.7em;
+}
+
+#logo {
+	width: 60px;
+	height: 60px;
+	padding-right: 10px;
+	transform: translate(0%, 25%);
+}

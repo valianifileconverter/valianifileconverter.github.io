@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Plt File Converter</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="js/ui.js"></script>
+		<script src="js/convert.js"></script>
+	</head>
+
+	<body onload="init()">
+
+		<div class=heading>
+			<h1 class=title>
+				<a href="index.html"><img id=logo src="media/VFC.png" alt="VFC logo"></a>
+				<a class=title href="index.html">Valiani File Converter</a>
+			</h1>
+			<p class=subtitle>For importing PLT files to VStudio. Have fun!</p>
+		</div>
+
+		<div class=clip>
+			<div class=uiWrap>
+				<div class=ui>
+					<div class=inputFile>
+						<input type="file" name=pltFile accept=".plt" id="fileInput" onchange="fileCallback(this.value)">
+					</div>
+					<div class=convertButton>
+						<button class=convert type=button onclick="convertCallback()" id=convertBtn >Convert!</button>
+					</div>
+				</div>
+			</div>
+
+			<div class=uiWrap id=outputArea style="display:none">
+				<div class=ui>
+					<p class=output>Converted Files:</p>
+					<ul type="none" id=outputList class=output>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class=footer>
+			<div class=copyright>
+				<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+					<img class=copyright alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+				</a>
+			</div>
+			<div class=copyright>
+				<p class=footNote>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+			</div>
+			<div class=author>
+				<p class=footNote>&#169; 2020 Iain J. Murphy</p>
+			</div>
+		</div>
+
+	</body>
+
+</html>
